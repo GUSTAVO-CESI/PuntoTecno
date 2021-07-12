@@ -26,7 +26,7 @@ header .logo{
 	font-size: 25px;
 	padding-right: 10px;
 	font-weight: bold;
-	font-family: cursive;
+	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 5px;
 	color: #000000;
 }
@@ -185,7 +185,7 @@ position: absolute;
   
 .titulo {
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     grid-area: titulo; 
 }
   
@@ -203,12 +203,12 @@ position: absolute;
   
 .texto-1{
     font-size: 18px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     grid-area: texto-1;
 }
 .texto-2 { 
     font-size: 18px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     grid-area: texto-2; 
 }
   
@@ -576,16 +576,11 @@ footer{
 	  
 	footer{
 		background: #8A9497;
-		margin-top: 100px;
-		margin-left: 0px;
-		height: 50px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		left: 0;
 		bottom: 0;
-		width: 100%;
-		font-size: 10px;
+		text-align: center;
+		height: 50px;
+		font-size: 11px;
+		
 	}
 	
 }
